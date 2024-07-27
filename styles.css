@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, button, input {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+
+  background-color: #1d1b1b;
+}
+
+.container .card {
+  background-color: #fff;
+  padding: 4.8rem;
+
+  border-radius: .6rem;
+  min-width: 35rem;
+}
+
+.container .card h1 {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.card label {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: .6rem;
+}
+
+.card .inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card input {
+  padding: 1.2rem;
+  border-radius: .6rem;
+  border: 0;
+
+  background: rgba(0, 0, 0, 0.3);
+  outline: 0;
+}
+
+.card .inputWrapper:nth-child(1) {
+  margin-bottom: 2.5rem;
+}
